@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomaticRemovalFromAnOC", "AutomaticRemovalFromAnOC\AutomaticRemovalFromAnOC.csproj", "{F2E8084C-1D57-403B-B490-293663710BED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallLongRunningFunctionAsync", "CallLongRunningFunctionAsync\CallLongRunningFunctionAsync.csproj", "{9DB6FC99-48F9-476D-A7D7-5723FE2421BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoSomethingWhenTheUserStopsTyping", "DoSomethingWhenTheUserStopsTyping\DoSomethingWhenTheUserStopsTyping.csproj", "{09906D13-E277-4438-BFFE-0FA8FA49E44E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupEventsAndProcessTogether", "GroupEventsAndProcessTogether\GroupEventsAndProcessTogether.csproj", "{7EA61267-85C9-45AD-83D1-46D59AFBEF30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2E8084C-1D57-403B-B490-293663710BED}.Debug|x86.ActiveCfg = Debug|x86
+		{F2E8084C-1D57-403B-B490-293663710BED}.Debug|x86.Build.0 = Debug|x86
+		{F2E8084C-1D57-403B-B490-293663710BED}.Release|x86.ActiveCfg = Release|x86
+		{F2E8084C-1D57-403B-B490-293663710BED}.Release|x86.Build.0 = Release|x86
+		{9DB6FC99-48F9-476D-A7D7-5723FE2421BB}.Debug|x86.ActiveCfg = Debug|x86
+		{9DB6FC99-48F9-476D-A7D7-5723FE2421BB}.Debug|x86.Build.0 = Debug|x86
+		{9DB6FC99-48F9-476D-A7D7-5723FE2421BB}.Release|x86.ActiveCfg = Release|x86
+		{9DB6FC99-48F9-476D-A7D7-5723FE2421BB}.Release|x86.Build.0 = Release|x86
+		{09906D13-E277-4438-BFFE-0FA8FA49E44E}.Debug|x86.ActiveCfg = Debug|x86
+		{09906D13-E277-4438-BFFE-0FA8FA49E44E}.Debug|x86.Build.0 = Debug|x86
+		{09906D13-E277-4438-BFFE-0FA8FA49E44E}.Release|x86.ActiveCfg = Release|x86
+		{09906D13-E277-4438-BFFE-0FA8FA49E44E}.Release|x86.Build.0 = Release|x86
+		{7EA61267-85C9-45AD-83D1-46D59AFBEF30}.Debug|x86.ActiveCfg = Debug|x86
+		{7EA61267-85C9-45AD-83D1-46D59AFBEF30}.Debug|x86.Build.0 = Debug|x86
+		{7EA61267-85C9-45AD-83D1-46D59AFBEF30}.Release|x86.ActiveCfg = Release|x86
+		{7EA61267-85C9-45AD-83D1-46D59AFBEF30}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

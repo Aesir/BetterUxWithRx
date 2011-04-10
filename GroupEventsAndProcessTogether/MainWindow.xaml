@@ -1,0 +1,25 @@
+﻿<Window x:Class="GroupEventsAndProcessTogether.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		Title="MainWindow"
+		Height="500"
+		Width="300">
+
+	<DockPanel>
+		<DockPanel DockPanel.Dock="Top">
+			<Button DockPanel.Dock="Right"
+					Content="{Binding Text, ElementName=txtNumberToAdd}"
+					ContentStringFormat="Add {0}"
+					Padding="10,5"
+					Margin="10,0"
+					Click="Button_Click" />
+
+			<TextBox x:Name="txtNumberToAdd"
+					 Text="1" />
+		</DockPanel>
+
+		<ListBox Margin="5,10"
+				 ItemsSource="{Binding NumberSets}" />
+
+	</DockPanel>
+</Window>
